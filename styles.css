@@ -2,20 +2,22 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .container {
+    width: 100%;
     max-width: 600px;
     padding: 20px;
     background-color: #50c3ac;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    z-index: 2000;
+    border-radius: 8px;
 }
 
 h1 {
@@ -52,12 +54,10 @@ button:hover {
 }
 
 .prompt {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
 }
