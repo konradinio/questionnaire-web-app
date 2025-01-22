@@ -3,6 +3,8 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -44,4 +46,23 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.prompt {
+
+    /* styles.css */
+    position: absolute;
+    /*top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex; /* Optional: for inner content alignment */
+      justify-content: center; /* Optional: aligns content horizontally */
+      align-items: center; /* Optional: aligns content vertically */
+    /*width: 50%; /* Optional: set width as needed */
+    /*height: auto; /* Optional: set height as needed */
+    /*background-color: #f0f0f0; /* Optional: background color for visibility */
+    /*border: 1px solid #ccc; /* Optional: border for visibility */
+    /*padding: 20px; /* Optional: padding for inner spacing */
+    /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    
 }
