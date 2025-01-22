@@ -1,5 +1,13 @@
 modules = ["web", "nodejs-20"]
-run = "npx http-server -p 3000 --bind 0.0.0.0"
+run = "npx http-server -p 3030 --bind 0.0.0.0"
 
 [nix]
 channel = "stable-24_05"
+
+[[ports]]
+localPort = 3030
+externalPort = 80
+
+[deployment]
+deploymentTarget = "static"
+publicDir = "."
